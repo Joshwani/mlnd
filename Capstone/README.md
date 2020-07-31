@@ -62,6 +62,6 @@ res = pd.DataFrame({"close": x[0],
 res.plot()
 ```
 
-![]('/Joshwani/mlnd/blob/master/Capstone/imgs/loss.png?raw=true')
+![]('https://github.com/Joshwani/mlnd/blob/master/Capstone/imgs/loss.png?raw=true')
 
-![]('/Joshwani/mlnd/blob/master/Capstone/imgs/fit.png?raw=true')
+![]('https://github.com/Joshwani/mlnd/blob/master/Capstone/imgs/fit.png?raw=true')
