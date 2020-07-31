@@ -62,6 +62,6 @@ res = pd.DataFrame({"close": x[0],
 res.plot()
 ```
 
-![]('./imgs/loss.png?raw=true')
+![](./imgs/loss.png)
 
-![]('./imgs/fit.png?raw=true')
+![](./imgs/fit.png)
