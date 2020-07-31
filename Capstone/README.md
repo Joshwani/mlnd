@@ -31,7 +31,7 @@ from lppls import lppls_layer
 ```
 ## Fitting the Model
 ```python
-# read the downloaded data (same dataset from medium article: 
+# read the yahoo data: 
 df = pd.read_csv('https://finance.yahoo.com/quote/SPY/history?period1=1235862000&period2=1577401200&interval=1d&filter=history&frequency=1d ', 
                  index_col='Date', 
                  parse_dates=True)
