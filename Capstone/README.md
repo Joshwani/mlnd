@@ -32,7 +32,6 @@ from lppls import lppls_layer
 ## Fitting the Model
 ```python
 # read the downloaded data (same dataset from medium article: 
-# https://medium.com/@ch9.ki7/lppl-or-arbitrary-curve-fitting-with-tensorflow-and-keras-9a8123f504f2)
 df = pd.read_csv('https://finance.yahoo.com/quote/SPY/history?period1=1235862000&period2=1577401200&interval=1d&filter=history&frequency=1d ', 
                  index_col='Date', 
                  parse_dates=True)
@@ -63,6 +62,6 @@ res = pd.DataFrame({"close": x[0],
 res.plot()
 ```
 
-![]('./imgs/loss.png')
+![]('https://github.com/Joshwani/mlnd/blob/master/Capstone/imgs/fit.png')
 
-![]('./imgs/fit.png')
+![]('https://github.com/Joshwani/mlnd/blob/master/Capstone/imgs/loss.png')
